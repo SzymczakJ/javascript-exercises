@@ -1,0 +1,36 @@
+.navbar {
+    background: yellow;
+    width: 100vw;
+    display: block;
+}
+.main_div {
+    padding-left: 22%;
+    padding-right: 22%;
+}
+.big-pc-img {
+    width: 100%;
+}
+.small-pc-img {
+    width: 100%;
+}
+
+.mouse {
+    width: 100%;
+}
+@media all and (max-width: 600px) {
+.mouse {
+    justify-content: end;
+}
+.mouse1 {
+    width: 67%;
+    float: right;
+}
+.mouse2 {
+    width: 35%;
+
+}
+.empty-space {
+    width: 1%;
+    position: static;
+}
+}
