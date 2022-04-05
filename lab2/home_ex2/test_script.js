@@ -30,7 +30,7 @@ function letters(string) {
 
 var expect = chai.expect;
 
-describe('The letters function', function() {
+describe('The sum function', function() {
   it('Returns 111 for 111', function() {
     expect(sum("111")).to.equal(111);
   });

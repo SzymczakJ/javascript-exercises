@@ -10,5 +10,6 @@ while (data != null) {
   var s = sum(data);
   var result = "\t" + d.toString() + "\t" + l.toString() + "\t" + s.toString();
   console.log(result);
-  data = window.prompt("podaj dane");
+  var window_prompt = "wyniki:" + "    " + d.toString() + "    " + l.toString() + "    " + s.toString() + " podaj dane";
+  data = window.prompt(window_prompt);
 }
