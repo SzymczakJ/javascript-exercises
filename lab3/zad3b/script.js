@@ -2,6 +2,10 @@ class Span extends HTMLElement {
     constructor() {
         super();
     }
+
+    change(value) {
+        this.innerText = value;
+    }
 }
 window.customElements.define('custom-span',Span);
 
@@ -28,8 +32,11 @@ function mainFunc() {
 
 function updateSpans(value) {
     for (let element of spans) {
-        element.innerText = value;
+        element.change(value);
+        // element.innerText = value;
     }
 }
 
 window.setInterval(mainFunc, 1000);
+// html ktory h1 do h6
+// jesli plus to dodaje do losowego h1-h6 wyraz lub liczbe gracz dostaje punkty od strzelania w wyrazy
